@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Labb 1 - Grupp 16</title>
     <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Labb 1 - Grupp 16</h1>
     <div>
+    <h1>Labb 1 - Grupp 16</h1>
+    <div class = "container">
+    <div>
+      <form id="settings" class="settings">
       <label class="textfield" for="color">Färg</label>
       <input class="textfield" type="text" id="color" name="color" />
     </div>
@@ -21,7 +25,10 @@
       <input class="checkbox" type="checkbox" id="divStyle" name="divStyle" />
     </div>
     <button id="remove">Ta bort</button>
+  </form>
     <div id="output"></div>
-    <script src="./script.js"></script>
+  </div>
+  </div>
+  <script src="./script.js"></script>
   </body>
 </html>

@@ -1,0 +1,38 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(119, 6, 142);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 30px;
+  padding: 5rem;
+  background-color: rgb(250, 231, 255);
+  border-radius: 1rem;
+}
+
+label {
+  padding-right: 10%;
+}
+
+#output {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border-style: solid;
+}
+
+button:hover {
+  background: hsl(205, 100%, 58%);
+}

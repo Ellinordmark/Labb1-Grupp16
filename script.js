@@ -26,3 +26,4 @@ function handleBlur(e) {
   const html = `<p>Namn ${name}, Value ${value}</p>`;
   output.insertAdjacentHTML("afterend", html);
 }
+fgfh;

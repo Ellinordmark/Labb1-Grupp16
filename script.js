@@ -5,7 +5,7 @@ const textfields = document.querySelectorAll(".textfield"); //querySelectorAll s
 const output = document.getElementById("output");
 
 //Test om hämtningen funkar
-console.log(textfields);
+// console.log(textfields);
 
 // Handle change, Lägger till vad man skriver i fälten Färg och Innehåll i den tomma diven (output)
 function handleChange(e) {
